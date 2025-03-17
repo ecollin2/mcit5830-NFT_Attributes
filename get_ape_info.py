@@ -52,7 +52,7 @@ def get_ape_info(ape_id):
         data["eyes"] = eye_trait 
 
     except Exception as error: 
-        print(f"Error retrieving data {ape_ID}: {e}")
+        print(f"Error retrieving data {ape_id}: {e}")
     
 
     assert isinstance(data, dict), f'get_ape_info{ape_id} should return a dict'
